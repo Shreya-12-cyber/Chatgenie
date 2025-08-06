@@ -1,11 +1,11 @@
 # 🤖 ChatGenie
 
-ChatGenie is a simple AI chatbot interface powered by Streamlit. It allows users to interact with a chatbot in a clean, browser-based UI.
+ChatGenie is an AI chatbot interface powered by Streamlit. It allows users to interact with a chatbot in a browser-based UI. 
 
 ## 🌐 How it works
 
 - The app uses the Streamlit framework to create a frontend interface.
-- It sends your chat queries to a language model API (like OpenAI or GROQ) using the API key stored in the `.env` file.
+- It sends your chat queries to a language model API (GROQ) using the API key stored in the `.env` file.
 - Responses are displayed in real-time in the browser.
 
 ## 🚀 How to Run
@@ -33,10 +33,9 @@ Make sure you have Python installed. Then follow the steps below:
    Launch the Streamlit app:
 
    ```bash
-   streamlit run app.py
+   streamlit run app.py (streamlit run your_script_name.py)
    ```
 
-   It will open in your browser at `http://localhost:8501/`.
 
 ## 🗂️ Project Structure
 
@@ -60,12 +59,12 @@ __pycache__/
 
 ## 📝 Notes
 
-- No virtual environment was used in this setup.
 - Don't upload `.env` or any secret keys to public repositories.
 - Make sure `streamlit` is properly installed; if not, reinstall with `pip install streamlit`.
 
 ## 📸 Screenshot 
 
+![Screenshot](Chatgenie.png)
 
 
 
