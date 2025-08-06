@@ -2,9 +2,17 @@
 
 ChatGenie is an AI chatbot interface powered by Streamlit. It allows users to interact with a chatbot in a browser-based UI. 
 
+## 🚀 Features
+
+- 💬 Interactive chat interface
+- 🕒 Timestamped messages
+- 📜 Chat history within session
+- 🔐 Uses `.env` to securely load API key
+- 🌐 Runs locally in the browser via Streamlit
+
 ## 🌐 How it works
 
-- The app uses the Streamlit framework to create a frontend interface.
+- Built using the Streamlit framework to create a frontend interface.
 - It sends your chat queries to a language model API (GROQ) using the API key stored in the `.env` file.
 - Responses are displayed in real-time in the browser.
 
